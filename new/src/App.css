@@ -1,0 +1,57 @@
+.video-section {
+	background-image: url("./assets//images/bg.png");
+	background-size: 100% 100%;
+}
+
+.video-react.video-react-fluid {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+
+.explain-section {
+    background-image: linear-gradient(180deg, #fb42b1, #800007);
+	color: white;
+}
+
+.Header {
+    background: #f2397b;
+}
+
+.gif-army-rose {
+    bottom: 0;
+    right: -30%;
+    width: 200px;
+    border-radius: 50%;
+}
+
+react-video-parent > div {
+    width: 100 !important;
+    height: 100% !important;
+}
+.rh5v-DefaultPlayer_component  {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10rem;
+}
+
+@media screen and (max-width: 756px) {
+    .rh5v-DefaultPlayer_component  {
+        margin-right: 0rem  !important;
+    }
+}
+
+
+
+@media screen and (max-width: 564px) {
+    .react-video-parent > div{
+        width: 100% !important;
+        height: 210px !important;
+    }
+    .explain-section .container .row:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+}
+

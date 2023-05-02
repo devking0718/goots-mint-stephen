@@ -1,0 +1,70 @@
+.navbar .container {
+  background: #ffffff24;
+  box-shadow: 0 0 25px 0 #ffffff24;
+}
+
+.connect-wallet {
+  font-size: 20px !important;
+}
+
+.mint-button {
+  font-size: 20px !important;
+  color: white !important;
+  /* background-image: linear-gradient(#9d53f5, #332166); */
+  background-image: linear-gradient(#514739, #120e08, #514739);
+  transition: 1s;
+}
+
+.mint-button:hover {
+  color: white !important;
+  /* background-image: linear-gradient(#332166, #9d53f5); */
+  background-image: linear-gradient(#120e08, #514739, #120e08);
+  transition: 1s;
+}
+
+.egg-banner {
+  box-shadow: 0 0 50px white;
+}
+
+
+.dark-banner {
+  width: 30%;
+  left: 4%;
+  top: 10%;
+}
+
+.form-control {
+  background: none !important;
+}
+
+button[id="button-addon1"]:hover {
+  background-color: #554a39;
+}
+
+body {
+  background: linear-gradient(137deg, #03080e, #392c19 45.44%, #000);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+
+.text-pop {
+  color: #ffa939 !important;
+  /* text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff; */
+}
+
+.Toastify__toast-theme--light {
+  background: #614b29 !important;
+  color: white !important;
+  border: 1px solid #e7b65a;
+}
+
+.Toastify__close-button--light {
+  color: #fff !important;
+  opacity: 1;
+}
+
+-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,70 @@
+{
+  "name": "goots_v1",
+  "version": "0.1.0",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@web3-onboard/coinbase": "^2.2.5",
+    "@web3-onboard/gas": "^2.1.8",
+    "@web3-onboard/injected-wallets": "^2.10.4",
+    "@web3-onboard/react": "^2.8.11",
+    "@web3-onboard/walletconnect": "^2.4.4",
+    "bootstrap": "^5.3.1",
+    "ethers": "^5.5.2",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "6",
+    "react-toastify": "^9.1.3",
+    "vconsole": "^3.3.4"
+  },
+  "scripts": {
+    "w3o-latest-prod": "yarn add '@web3-onboard/react' '@web3-onboard/coinbase' '@web3-onboard/gas' '@web3-onboard/injected-wallets' '@web3-onboard/walletconnect'",
+    "w3o-latest-alpha": "yarn add '@web3-onboard/react@next' '@web3-onboard/coinbase@next' '@web3-onboard/gas@next' '@web3-onboard/injected-wallets@next' '@web3-onboard/walletconnect@next'",
+    "start": "react-app-rewired start",
+    "start-staging": "REACT_APP_API_URL=wss://staging.api.blocknative.com/v0 REACT_APP_STAGING=true HTTPS=true HTTPS=true react-scripts start",
+    "start-local": "REACT_APP_API_URL=ws://localhost:54100/v0 REACT_APP_STAGING=true HTTPS=true react-scripts start",
+    "build": "react-app-rewired build",
+    "build-staging": "REACT_APP_API_URL=wss://staging.api.blocknative.com/v0 REACT_APP_STAGING=true react-app-rewired build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "prettier": "^2.0.5",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "typescript": "^4.8.2",
+    "url": "^0.11.0"
+  }
+}

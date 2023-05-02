@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(137deg, #03080E 0%, #392C19 45.44%, #000 100%);
+}
+
+
+@font-face {
+  font-family: normalFont;
+  src: url("./assets/fonts/RussoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: titleFont;
+  src: url("./assets/fonts/RussoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: messageFont;
+  src: url("./assets/fonts/RussoOne-Regular.ttf");
+}
+
+
+
+* {
+  font-family: normalFont !important;
+}
+
+.title-fs {
+  font-family: titleFont !important;
+}
+
+div[data-testid="numeric-stepper"] {
+  width: 40% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.App {
+  max-height: 100vh;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: 0px;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 3px solid #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
